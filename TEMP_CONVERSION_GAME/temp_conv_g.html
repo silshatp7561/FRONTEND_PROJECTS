@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silsha</title>
+    <link rel="stylesheet" href="temp_conv_g.css">
+</head>
+
+<body>
+    <form>
+        <h1>Temparature Conversion:</h1>
+        <input type="text" id="textbox" value="0"><br>
+
+        <input type="radio" id="tof" name="unit">
+        <label for="tof">Celcius -> Fahrenheit</label><br>
+
+        <input type="radio" id="toc" name="unit">
+        <label for="toc">Fahrenheit -> Celcius</label><br>
+
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="result"></p>
+    </form>
+
+    <script src="temp_conv_g.js"></script>
+</body>
+
+</html>
