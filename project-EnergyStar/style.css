@@ -504,9 +504,7 @@ body {
         width: 100%;
         height: auto;
     }
-    .logo{
-        margin-bottom: 30px;
-    }
+    
     .first-half,
     .second-half {
         width: 100%;
@@ -636,6 +634,9 @@ body {
 
     .second-items {
         grid-template-columns: 1fr;
+    }
+    .logo{
+        margin-bottom: 30px;
     }
 
     .logos,
