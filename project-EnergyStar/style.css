@@ -504,7 +504,9 @@ body {
         width: 100%;
         height: auto;
     }
-
+    .logo{
+        margin-bottom: 30px;
+    }
     .first-half,
     .second-half {
         width: 100%;
@@ -532,6 +534,7 @@ body {
         font-size: 25px;
         height: auto;
         text-align: center;
+        margin-bottom:20px;
     }
 
     .second-items {
